@@ -30,3 +30,17 @@ body {
 .profile-details {
     width: 80%;
 }
+
+code {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #333;
+    overflow-x: auto; /* 允许横向滚动 */
+}
+
+.python {
+    font-family: 'Courier New', Courier, monospace; /* 代码字体样式 */
+}
