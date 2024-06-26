@@ -1,4 +1,5 @@
 baseURL = "https://dean-98543.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "My New Hugo Site Home"
 theme = "ananke"
+publishDir = "./"
