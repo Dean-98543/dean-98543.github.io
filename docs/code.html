@@ -67,6 +67,15 @@ hello_world()
         # 重新加载 Shell 配置:
         source ~/.zshrc
 
+        # Q:如何退出（分离）一个会话
+        # A:
+        # 在会话内部时,当您处于 tmux 会话内部，并希望退出（分离）会话但不终止会话，可以使用快捷键 Ctrl+B, D（其中 Ctrl+B 是默认的前缀键，D 用于分离）。
+        # 这种方式适用于直接操作会话时，快速离开但保持会话在后台运行。
+        # 在会话外部时,如果您不在 tmux 会话内部，但需要从会话中分离（例如，您通过另一个终端窗口或 SSH 会话管理 tmux），则可以使用命令 tmux detach -s <session-name>。
+        # 这种方法允许您从任何终端或位置控制 tmux 会话的分离，无需首先附加到会话。
+
+
+
     </code></pre>
     <script>hljs.highlightAll();</script>
 </body>
