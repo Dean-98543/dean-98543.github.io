@@ -1,7 +1,6 @@
 ---
-layout: page
-title: "页面标题"
+layout: default
+title: ggggym
 ---
 
-
-# xxx
+# ddd

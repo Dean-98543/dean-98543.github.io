@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88ea500c-61ca-4544-8e6d-521289f82009" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/example.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_site/example.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/example.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/example.md" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,7 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/guoyangming/Documents/github_repo/dean-98543.github.io/docs",
+    "last_opened_file_path": "/Users/guoyangming/Documents/github_repo/dean-98543.github.io/docs/_site",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/_site" />
       <recent name="$PROJECT_DIR$/docs" />
     </key>
   </component>
@@ -76,7 +78,7 @@
       <workItem from="1719451132429" duration="1304000" />
       <workItem from="1719453398086" duration="149000" />
       <workItem from="1719484576683" duration="1925000" />
-      <workItem from="1719494037789" duration="1976000" />
+      <workItem from="1719494037789" duration="2569000" />
     </task>
     <servers />
   </component>
