@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Content</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div id="content"></div>
+    <script>
+        fetch('example.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('content').innerHTML = marked(text);
+            })
+            .catch(error => console.error('Error loading the Markdown file:', error));
+    </script>
+</body>
+</html>
