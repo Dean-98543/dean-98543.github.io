@@ -8,13 +8,19 @@
 </head>
 <body>
     <div id="content"></div>
+    <h1>Welcome to the Markdown Display Page</h1>
+    <p>This page will eventually show Markdown content.</p>
+    <p>This page will eventually show Markdown content3.</p>
     <script>
-        fetch('example.md')
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('content').innerHTML = marked(text);
-            })
-            .catch(error => console.error('Error loading the Markdown file:', error));
+    fetch('example.md')
+        .then(response => response.text())
+        .then(text => {
+            console.log(text);  // 在控制台输出Markdown文本
+            document.getElementById('markdown-content').innerHTML = marked(text);
+        })
+        .catch(error => {
+            console.error('Error loading the Markdown file:', error);
+        });
     </script>
 </body>
 </html>
