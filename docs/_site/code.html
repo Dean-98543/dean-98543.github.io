@@ -13,7 +13,7 @@
     <pre><code id="code-container" class="python"></code></pre>
     <script>hljs.highlightAll();
     document.addEventListener('DOMContentLoaded', function () {
-            fetch('python/mycode.py')
+            fetch('python/mycode.sh')
                     .then(response => response.text())
                     .then(text => {
                             document.getElementById('code-container').textContent = text;
