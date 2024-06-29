@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88ea500c-61ca-4544-8e6d-521289f82009" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/_site/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/_site/python/mycode.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/code.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/example.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/docs/example.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/me/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/me/avatar.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/python/mycode.sh" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code/mycode.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +60,7 @@
       <recent name="$PROJECT_DIR$/docs" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docs/me" />
       <recent name="$PROJECT_DIR$/docs/code" />
       <recent name="$PROJECT_DIR$/docs/docs" />
     </key>
