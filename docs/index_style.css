@@ -1,0 +1,14 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    /* 设置页面使用的字体，如果系统中无该字体，则使用任何可用的无衬线字体 */
+    display: flex; /* 启用Flexbox布局，这是一种用于在容器中以灵活方式布局项目的模式 */
+    flex-direction: column; /* 设置Flexbox的方向为垂直方向，即子元素从上到下排列 */
+    align-items: center; /* 在水平方向上居中对齐子元素 */
+    justify-content: center; /* 在垂直方向上居中对齐子元素 */
+    min-height: 100vh; /* 设置body的最小高度为视窗的100%，确保即使内容不多，body也能扩展到整个屏幕的高度 */
+    margin: 0; /* 移除body的外边距 */
+}
+a {
+    color: blue; /* 设置链接文字的颜色为蓝色 */
+    text-decoration: none; /* 去除链接下的下划线 */
+}
