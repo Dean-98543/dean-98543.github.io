@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="88ea500c-61ca-4544-8e6d-521289f82009" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/docs/_site/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/_site/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/code.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/_site/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/_site/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/avatar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/avatar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/code.html" beforeDir="false" afterPath="$PROJECT_DIR$/docs/code.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/docs/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

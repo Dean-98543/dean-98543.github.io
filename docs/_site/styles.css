@@ -31,16 +31,14 @@ body {
     width: 80%;
 }
 
-code {
-    background-color: #f4f4f4;
-    border: 1px solid #ddd;
-    display: block;
-    padding: 10px 15px;
-    border-radius: 5px;
-    color: #333;
-    overflow-x: auto; /* 允许横向滚动 */
-}
 
 .python {
     font-family: 'Courier New', Courier, monospace; /* 代码字体样式 */
+}
+
+pre {
+    max-width: 1000px; /* 设置代码块的最大宽度 */
+    margin: auto; /* 上下保持原有的边距，左右自动调整以居中显示 */
+    overflow-x: auto; /* 如果代码长度超出最大宽度，则显示横向滚动条 */
+    border-radius: 5px; /* 圆角设置 */
 }
