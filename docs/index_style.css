@@ -8,6 +8,7 @@ body {
     min-height: 100vh; /* 设置body的最小高度为视窗的100%，确保即使内容不多，body也能扩展到整个屏幕的高度 */
     margin: 0; /* 移除body的外边距 */
 }
+
 a {
     color: blue; /* 设置链接文字的颜色为蓝色 */
     text-decoration: none; /* 去除链接下的下划线 */

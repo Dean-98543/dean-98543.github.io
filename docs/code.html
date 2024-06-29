@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Python Code</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/atom-one-dark.min.css">
-        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="styles.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
 </head>
 <body>
@@ -13,7 +13,7 @@
     <pre><code id="code-container" class="python"></code></pre>
     <script>hljs.highlightAll();
     document.addEventListener('DOMContentLoaded', function () {
-            fetch('mycode.sh')
+            fetch('code/mycode.sh')
                     .then(response => response.text())
                     .then(text => {
                             document.getElementById('code-container').textContent = text;
