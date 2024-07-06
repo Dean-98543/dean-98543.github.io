@@ -4,10 +4,10 @@ title: ggggym
 ---
 
 
-| index | title                                                        | solution                                       | relation |
-| ----- | ------------------------------------------------------------ | ---------------------------------------------- | -------- |
-| 3099  | [Harshad Number](https://leetcode.cn/problems/harshad-number/description/) | [S1](../code.html?file=3099_Harshad_Number.py) |          |
-|       |                                                              |                                                |          |
-|       |                                                              |                                                |          |
-|       |                                                              |                                                |          |
+| index | title                                                        | solution                                                     | relation |
+| ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
+| 3099  | [Harshad Number](https://leetcode.cn/problems/harshad-number/description/) | [S1](../code.html?file=LC_3099_Harshad_Number.py)            |          |
+|       |                                                              |                                                              |          |
+| 3101  | [Count Alternating Subarray](https://leetcode.cn/problems/count-alternating-subarrays/description/) | [Sliding Window](../code.html?file=LC_3101_Count_Alternating_Subarrays_S1_Sliding_Window.py); |          |
+|       |                                                              |                                                              |          |
 
