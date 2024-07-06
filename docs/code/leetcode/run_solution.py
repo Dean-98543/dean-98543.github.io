@@ -1,3 +1,13 @@
+from LC3200_Maximum_Height_of_a_Triangle_S2_Math import Solution
+ans = Solution()
+print(ans.maxHeightOfTriangle(red = 2, blue = 4))   # 3
+print(ans.maxHeightOfTriangle(red = 2, blue = 1))   # 2
+print(ans.maxHeightOfTriangle(red = 1, blue = 1))   # 1
+print(ans.maxHeightOfTriangle(red = 10, blue = 1))  # 2
+print(ans.maxHeightOfTriangle(red = 9, blue = 3))  # 3
+
+
+exit()
 from LC3200_Maximum_Height_of_a_Triangle_S1_Simulation import Solution
 ans = Solution()
 print(ans.maxHeightOfTriangle(red = 2, blue = 4))   # 3
