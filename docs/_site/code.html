@@ -4,33 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Python Code</title>
-        <link rel="stylesheet" href="assets/css/python_style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="assets/css/python-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/styles/atom-one-dark.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.5.1/highlight.min.js"></script>
+    <script src="assets/js/py-loader.js"></script> <!-- 引用外部的 JS 文件 -->
 </head>
 <body>
     <h1>My Frequently Used Python Code</h1>
     <pre><code id="code-container" class="python"></code></pre>
-    <script>
-    hljs.highlightAll();
-    document.addEventListener('DOMContentLoaded', function () {
-        // 获取 URL 中的文件参数
-        const queryParams = new URLSearchParams(window.location.search);
-        const codeFile = queryParams.get('file');  // 获取名为 'file' 的查询参数
-
-        // 构建文件路径并进行 fetch 操作
-        const filePath = codeFile ? `code/leetcode/${codeFile}` : 'code/leetcode/hello.py'; // 默认为 'code/mycode.sh'
-
-        fetch(filePath)
-            .then(response => response.text())
-            .then(text => {
-                document.getElementById('code-container').textContent = text;
-                hljs.highlightAll();  // 确保代码高亮
-            })
-            .catch(error => console.error('Error loading the file:', error));
-    });
-    </script>
-
-
 </body>
 </html>
