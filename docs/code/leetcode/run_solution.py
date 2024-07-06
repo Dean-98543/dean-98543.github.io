@@ -1,4 +1,14 @@
-from LC_3101_Count_Alternating_Subarrays import Solution
+from LC3033_Modify_the_Matrix_S1_Simulation import Solution
+
+ans = Solution()
+print(ans.modifiedMatrix(matrix = [[1,2,-1],[4,-1,6],[7,8,9]]))
+print(ans.modifiedMatrix(matrix = [[3,-1],[5,2]]))
+
+
+
+
+exit()
+from LC3101_Count_Alternating_Subarrays_S1_Sliding_Window import Solution
 
 
 ans = Solution()
