@@ -4,7 +4,7 @@ title: ggggym
 ---
 
 
-| index | title                                                        | solution                                                     | relation |
+| Index | Title                                                        | Solution                                                     | Relation |
 | ----- | ------------------------------------------------------------ | ------------------------------------------------------------ | -------- |
 | 3099  | [Harshad Number](https://leetcode.cn/problems/harshad-number/description/) | [S1](../code.html?file=LC_3099_Harshad_Number.py)            |          |
 |       |                                                              |                                                              |          |
