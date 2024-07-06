@@ -1,0 +1,47 @@
+body {
+    font-family: "Times New Roman", sans-serif;
+    /* 设置页面使用的字体，如果系统中无该字体，则使用任何可用的无衬线字体 */
+    display: flex; /* 启用Flexbox布局，这是一种用于在容器中以灵活方式布局项目的模式 */
+    flex-direction: column; /* 设置Flexbox的方向为垂直方向，即子元素从上到下排列 */
+    align-items: center; /* 在水平方向上居中对齐子元素 */
+    justify-content: center; /* 在垂直方向上居中对齐子元素 */
+    min-height: 100vh; /* 设置body的最小高度为视窗的100%，确保即使内容不多，body也能扩展到整个屏幕的高度 */
+    margin: 0; /* 移除body的外边距 */
+}
+
+
+
+.main-title {
+    color: black; /* 深灰色 */
+    font-size: 64px; /* 字体大小 */
+    font-family: 'Times New Roman', sans-serif; /* Arial 字体，如果不可用则使用系统默认的无衬线字体 */
+}
+
+.about-link a, .code-link a, .markdown-link a {
+    font-size: 20px; /* 所有链接字体大小统一为20px */
+    padding: 8px; /* 添加内边距 */
+    border-radius: 5px; /* 圆角边框 */
+    display: inline-block; /* 使链接成为内联块，便于应用边距和圆角 */
+}
+
+.about-link a {
+    color: black; /* 蓝色 */
+}
+
+.code-link a {
+    color: black; /* 绿色 */
+}
+
+.markdown-link a {
+    color: black; /* 黄色 */
+}
+
+a {
+    /*color: red; !* 设置链接文字的颜色为蓝色 *!*/
+    text-decoration: none; /* 默认状态下去除链接下的下划线 */
+    transition: text-decoration 2.0s; /* 平滑过渡效果 */
+}
+
+a:hover {
+    text-decoration: underline; /* 鼠标悬停时添加下划线 */
+}
