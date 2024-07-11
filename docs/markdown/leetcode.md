@@ -1,5 +1,5 @@
 ---
-layout: markdown
+layout: markdown-table2me
 ---
 
 
