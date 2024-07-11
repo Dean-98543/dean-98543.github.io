@@ -1,3 +1,13 @@
+from LC0724_Find_Pivot_Index_S1_Two_Points import Solution
+ans = Solution()
+# print(ans.pivotIndex(nums = [1, 7, 3, 6, 5, 6])) # 3
+# print(ans.pivotIndex([1,2,3]))  # -1
+# print(ans.pivotIndex(nums = [2, 1, -1]))    #  0
+print(ans.pivotIndex([-1,-1,-1,-1,-1,0]))
+
+
+
+exit()
 from LC3200_Maximum_Height_of_a_Triangle_S2_Math import Solution
 ans = Solution()
 print(ans.maxHeightOfTriangle(red = 2, blue = 4))   # 3
