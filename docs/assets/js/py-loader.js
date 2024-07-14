@@ -7,13 +7,19 @@ document.addEventListener('DOMContentLoaded', function () {
     const codeFile = queryParams.get('file');  // 获取名为 'file' 的查询参数
 
     // 构建文件路径并进行 fetch 操作
-    const filePath = codeFile ? `code/leetcode/${codeFile}` : 'code/leetcode/hello.py'; // 默认文件路径
+    const baseFilePath = "code/leetcode/";  // 设置基础文件路径
+    const filePath = codeFile ? `${baseFilePath}${codeFile}` : `${baseFilePath}hello.py`; // 构建完整的文件路径
 
     fetch(filePath)
         .then(response => response.text())
         .then(text => {
-            document.getElementById('code-container').textContent = text;
-            hljs.highlightAll();  // 确保代码高亮
+            const codeContainer = document.getElementById('code-container');
+            if (codeContainer) {
+                codeContainer.textContent = text;
+                hljs.highlightAll();  // 确保代码高亮
+            } else {
+                console.error('Code container element not found.');
+            }
         })
         .catch(error => console.error('Error loading the file:', error));
 });

@@ -1,3 +1,14 @@
+# from LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S1_Recursion import Solution
+# from LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S2_Iteration import Solution
+from LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S3_Bitwise import Solution
+
+ans = Solution()
+print(ans.validStrings(3))
+# print(ans.validStrings(4))
+# print(ans.validStrings(18))
+# print(ans.validStrings(1))
+
+exit()
 from LC0724_Find_Pivot_Index_S1_Two_Points import Solution
 ans = Solution()
 # print(ans.pivotIndex(nums = [1, 7, 3, 6, 5, 6])) # 3
