@@ -1,8 +1,8 @@
 .python {
     /*font-family: 'JetBrains Mono', Courier, monospace; !* 设置字体 *!*/
     font-family: 'JetBrains Mono', monospace; /* 设置字体 */
-    font-size: 15px; /* 设置字体大小为 13px */
-    line-height: 1.5; /* 设置行高为字体大小的1.2倍 */
+    font-size: 14px; /* 设置字体大小为 13px */
+    line-height: 1.6; /* 设置行高为字体大小的1.2倍 */
     tab-size: 4; /* 设置制表符宽度 */
 }
 
