@@ -1,3 +1,6 @@
+x = list(range(0, 20, 2))
+
+exit()
 from LC0724_Find_Pivot_Index_S1_Two_Points import Solution
 ans = Solution()
 # print(ans.pivotIndex(nums = [1, 7, 3, 6, 5, 6])) # 3
