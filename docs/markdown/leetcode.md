@@ -23,4 +23,6 @@ layout: markdown-table2me
 |       |                                                              |                                                              |          |
 | 3211  | [Generate Binary Strings without Adjacent Zeros](https://leetcode.cn/problems/generate-binary-strings-without-adjacent-zeros/description/) | [Recursion](../code.html?file=LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S1_Recursion.py); [Iteration](../code.html?file=LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S2_Iteration.py); [Bitwise](../code.html?file=LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S3_Bitwise.py) |          |
 |       |                                                              |                                                              |          |
+| 3216  | [Lexicographyically Smallest String After a Swap](https://leetcode.cn/problems/lexicographically-smallest-string-after-a-swap/description/) | [Greedy](../code.html?file=LC3216_Lexicographyically_Smallest_String_After_a_Swap.py) |          |
+|       |                                                              |                                                              |          |
 

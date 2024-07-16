@@ -1,3 +1,4 @@
+x = list(range(0, 20, 2))
 # from LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S1_Recursion import Solution
 # from LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S2_Iteration import Solution
 from LC3211_Generate_Binary_Strings_Without_Adjacent_Zeros_S3_Bitwise import Solution
