@@ -1,0 +1,32 @@
+
+/* markdown.css */
+.markdown-body {
+  font-family: 'Times New Roman', sans-serif; /* 设置字体为'Times New Roman'，如果该字体不可用，则使用系统默认的无衬线字体 */
+  line-height: 1.6; /* 设置行高为1.6倍，默认行高通常是字体大小的1.2倍，这里增加行高以改善阅读体验 */
+}
+
+.markdown-body table {
+  width: 70%; /* 设置表格宽度占据父容器的100% */
+  margin-left: auto; /* 左边距设置为自动，与右边距结合用于使表格水平居中 */
+  margin-right: auto; /* 右边距设置为自动 */
+  border-collapse: collapse; /* 表格的边框会合并为一个单一的边框，而不是每个单元格有单独的边框 */
+}
+
+/*下面这样的写法是一种选择器组合用法，它允许您为多个选择器指定相同的样式规则，以避免重复编写相同的样式代码。*/
+.markdown-body table th,  /*Table Header*/
+.markdown-body table td   /*Table Data*/
+{
+  border: 1px solid #ccc; /* 设置表头和单元格的边框为1像素的灰色实线 */
+  padding: 8px; /* 在单元格内容与边框之间设置8像素的填充，增加可读性 */
+  text-align: left; /* 设置单元格内容左对齐 */
+}
+
+/* 特定于表头的样式设置 */
+.markdown-body table th {
+  background-color: #f0f0f0; /* 浅灰色背景 */
+  color: #333; /* 深灰色文字，确保文本清晰可见 */
+}
+
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  color: #333; /* 设置标题（h1, h2, h3）的颜色为深灰色 */
+}
