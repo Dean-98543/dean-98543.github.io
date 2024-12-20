@@ -1,0 +1,98 @@
+<h1 id="git协同开发">Git协同开发</h1>
+
+<p>Git是一个分布式版本控制系统，它能够帮助开发者管理代码的版本，并跟踪代码的修改历史。下面是一些使用github进行协同开发基本的一些使用命令：</p>
+
+<ol>
+  <li>
+    <p>将项目仓库clone到本地：</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone <span class="o">[</span>仓库URL]
+</code></pre></div>    </div>
+
+    <blockquote>
+      <p>注：如若涉及到用户配置信息的问题，可参考网址<a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens">Managing your personal access tokens</a>使用个人访问令牌PAT进行认证</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>创建一个新分支，并切换到该分支（建议分支命名规范：[姓名拼音缩写_当前任务描述]）：</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git checkout <span class="nt">-b</span> <span class="o">[</span>新分支名]
+git add <span class="nb">.</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>进入项目目录，拉取远程主分支最新代码：</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull origin main
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>开发功能（例如在tools目录下新建了func.py文件）</p>
+  </li>
+  <li>
+    <p>将更改添加到缓存区：</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add tools/func.py
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>保存更改到本地git：</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit <span class="nt">-m</span> <span class="s2">"Add func.py"</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>拉取远程主分支，确保其最新：</p>
+
+    <div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git pull origin main
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>推送该新分支到远程：</p>
+
+    <ol>
+      <li>或者将本地的某个分支的改动推送到远程的某一个分支：</li>
+    </ol>
+  </li>
+  <li>
+    <p>上一步成功后，会返回一个链接，访问该链接提交pull request</p>
+  </li>
+  <li>
+    <p>填写request title 和 description，创建pull request</p>
+  </li>
+  <li>
+    <p>reviewer检查该request无误之后，将该request merge到main分支</p>
+  </li>
+  <li>
+    <p>本地切换到主分支并查看当前分支：</p>
+  </li>
+  <li>
+    <p>更新本地主分支</p>
+  </li>
+  <li>
+    <p>删除本地刚才新建的分支：</p>
+  </li>
+  <li></li>
+  <li>
+    <h1 id="1">1</h1>
+  </li>
+  <li>
+    <h2 id="2">2</h2>
+  </li>
+  <li>
+    <h3 id="3">3</h3>
+  </li>
+  <li>
+    <h4 id="4">4</h4>
+  </li>
+  <li>
+    <h5 id="5">5</h5>
+  </li>
+  <li>
+    <h6 id="6">6</h6>
+  </li>
+  <li>7</li>
+</ol>
+
+\[x = y^2\]
+
